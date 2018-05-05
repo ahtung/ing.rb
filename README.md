@@ -1,8 +1,11 @@
 # IngRb
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ing_rb`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://travis-ci.org/ahtung/ing_rb.svg?branch=master)](https://travis-ci.org/ahtung/ing_rb)
+[![Gem Version](https://badge.fury.io/rb/ing_rb.svg)](https://badge.fury.io/rb/ing_rb)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8e9c963093297534c4bb/maintainability)](https://codeclimate.com/github/ahtung/ing_rb/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/ahtung/ing_rb/badge.svg?branch=master)](https://coveralls.io/github/ahtung/ing_rb?branch=master)
 
-TODO: Delete this and the text above, and describe your gem
+- [Documentation]()
 
 ## Installation
 
@@ -22,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Development
 
@@ -32,10 +35,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ing_rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ahtung/ing_rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

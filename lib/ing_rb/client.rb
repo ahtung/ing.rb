@@ -2,6 +2,8 @@ require "securerandom"
 require "faraday"
 require "faraday_middleware"
 
+Dir[File.dirname(__FILE__) + "/objects/**/*.rb"].each { |f| require f }
+
 module IngRb
   # Client
   class Client

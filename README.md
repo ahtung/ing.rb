@@ -1,6 +1,6 @@
 # IngRb
 
-[![Build Status](https://travis-ci.org/ahtung/ing_rb.svg?branch=master)](https://travis-ci.org/ahtung/ing_rb)
+[![Build Status](https://travis-ci.com/ahtung/ing.rb.svg?branch=master)](https://travis-ci.com/ahtung/ing.rb)
 [![Gem Version](https://badge.fury.io/rb/ing_rb.svg)](https://badge.fury.io/rb/ing_rb)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8e9c963093297534c4bb/maintainability)](https://codeclimate.com/github/ahtung/ing_rb/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/ahtung/ing_rb/badge.svg?branch=master)](https://coveralls.io/github/ahtung/ing_rb?branch=master)

@@ -17,10 +17,6 @@ module IngRb
       "/v1/accounts"
     end
 
-    def balances
-      IngRb::Balance.all(@id)
-    end
-
     def transactions
       IngRb::Transaction.all(@id)
     end

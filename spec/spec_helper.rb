@@ -13,7 +13,7 @@ RSpec.configure do |config|
 
   config.before(:each, active_session: true) do
     IngRb.configure do |ingrb_config|
-      ingrb_config.url = "https://sandbox.public.api.bunq.com"
+      ingrb_config.url = "https://api.sandbox.ing.com"
     end
   end
 end

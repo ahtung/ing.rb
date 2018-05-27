@@ -44,23 +44,16 @@ module IngRb
       def implements_list
         define_singleton_method(:all) do |*args|
           Enumerator.new do |yielder|
-            older_url = counted_url(args)
+            older_url = url(*args)
             loop do
               results = Client.raw_send_method(:get, older_url)
               json = JSON.parse(results.body)
-              json["Response"].map { |item| yielder << new(item.values.first) }
-              raise StopIteration if json["Pagination"].nil? || json["Pagination"]["older_url"].nil?
-              older_url = json["Pagination"]["older_url"]
+              json[container].map { |item| yielder << new(item) }
+              raise StopIteration if json["_links"].nil?
+              older_url = json["_links"]["next"]
             end
           end.lazy
         end
-      end
-
-      def counted_url(args)
-        page_size = IngRb.configuration.page_size
-        arged_url = Addressable::Template.new("#{url(*args)}{?query*}")
-        params = page_size == 10 ? {} : { count: page_size }
-        arged_url.expand(query: params).to_s
       end
     end
   end

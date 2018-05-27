@@ -1,0 +1,14 @@
+{
+  "account-list": [
+    {
+      "id": "7de0041d-4f25-4b6c-a885-0bbeb1eab220",
+      "iban": "NL12INGB123456789",
+      "name": "A. Van Dijk",
+      "currency": "EUR",
+      "_links": {
+        "balances": "/v1/accounts/7de0041d-4f25-4b6c-a885-0bbeb1eab220/balances",
+        "transactions": "/v1/accounts/7de0041d-4f25-4b6c-a885-0bbeb1eab220/transactions"
+      }
+    }
+  ]
+}

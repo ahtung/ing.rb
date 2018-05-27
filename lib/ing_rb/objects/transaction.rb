@@ -15,5 +15,9 @@ module IngRb
     def self.url(account_id)
       "/v1/accounts/#{account_id}/transactions"
     end
+
+    def self.container
+      "transactions"
+    end
   end
 end

@@ -1,0 +1,68 @@
+{
+    "transactions": {
+        "booked": [
+            {
+                "transactionId": "trx123456789",
+                "endToEndId": "EndToEndID1234567890",
+                "bookingDate": "2017-11-21",
+                "valueDate": "2017-11-21",
+                "executionDateTime": "2017-11-21T09:16:54.991Z",
+                "amount": {
+                    "currency": "EUR",
+                    "content": 100.12
+                },
+                "creditorName": "Creditor Name",
+                "creditorAccount": {
+                    "iban": "NL12INGB123456789",
+                    "bban": 123456789,
+                    "bic": "INGBNL2A"
+                },
+                "debtorName": "Debtor Name",
+                "debtorAccount": {
+                    "iban": "NL12INGB123456789",
+                    "bban": 123456789,
+                    "bic": "INGBNL2A"
+                },
+                "transactionType": "Sepa Credit Transfer",
+                "remittanceInformationUnstructured": "Unstructered remittance information example",
+                "remittanceInformationStructured": {
+                    "type": "SCOR",
+                    "issuer": "ISO",
+                    "reference": "RF18539007547034"
+                }
+            }
+        ],
+        "pending": [
+            {
+                "transactionId": "trx123456789",
+                "endToEndId": "EndToEndID1234567890",
+                "bookingDate": "2017-11-21",
+                "valueDate": "2017-11-21",
+                "executionDateTime": "2017-11-21T09:16:54.991Z",
+                "amount": {
+                    "currency": "EUR",
+                    "content": 100.12
+                },
+                "creditorName": "Creditor Name",
+                "creditorAccount": {
+                    "iban": "NL12INGB123456789",
+                    "bban": 123456789,
+                    "bic": "INGBNL2A"
+                },
+                "debtorName": "Debtor Name",
+                "debtorAccount": {
+                    "iban": "NL12INGB123456789",
+                    "bban": 123456789,
+                    "bic": "INGBNL2A"
+                },
+                "transactionType": "Sepa Credit Transfer",
+                "remittanceInformationUnstructured": "Unstructered remittance information example",
+                "remittanceInformationStructured": {
+                    "type": "SCOR",
+                    "issuer": "ISO",
+                    "reference": "RF18539007547034"
+                }
+            }
+        ]
+    }
+}

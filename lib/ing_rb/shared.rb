@@ -57,7 +57,7 @@ module IngRb
       end
 
       def counted_url(args)
-        page_size = BunqRb.configuration.page_size
+        page_size = IngRb.configuration.page_size
         arged_url = Addressable::Template.new("#{url(*args)}{?query*}")
         params = page_size == 10 ? {} : { count: page_size }
         arged_url.expand(query: params).to_s

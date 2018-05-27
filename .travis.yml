@@ -1,5 +1,14 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.3.0
+  - 2.2.9
+  - 2.3.6
+  - 2.4.3
+  - ruby-head
 before_install: gem install bundler -v 1.13.6
+matrix:
+  fast_finish: true
+  exclude:
+    - rvm: 2.0
+  allow_failures:
+    - rvm: ruby-head

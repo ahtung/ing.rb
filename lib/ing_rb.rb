@@ -1,3 +1,5 @@
+require "addressable"
+
 require_relative "ing_rb/logger"
 require_relative "ing_rb/version"
 require_relative "ing_rb/configuration"

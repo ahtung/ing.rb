@@ -10,4 +10,10 @@ RSpec.configure do |config|
   config.filter_run focus: true
   config.run_all_when_everything_filtered = true
   config.order = "random"
+
+  config.before(:each, active_session: true) do
+    IngRb.configure do |ingrb_config|
+      ingrb_config.url = "https://sandbox.public.api.bunq.com"
+    end
+  end
 end
